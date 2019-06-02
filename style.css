@@ -1,0 +1,59 @@
+/* @import './reset.css'; */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Raleway'); */
+
+
+body{
+    display: flex;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.row {
+    margin-top: 5rem;
+}
+
+.left-side {
+    /* display: grid; */
+    height: 35rem;
+    width: 50fr;
+    background-color: rgb(138, 156, 139);
+}
+
+.right-side {
+    display: flex;
+    height: 35rem;
+    width: 50fr;
+    background-color: rgb(120, 161, 173);
+    font-size: 15px;
+}
+
+.title {
+    text-align: left;
+    padding: 2rem;
+}
+
+h1 {
+    height: 5rem;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.fa-frog {
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+.fa-circle {
+    font-size: 4rem;
+}
+

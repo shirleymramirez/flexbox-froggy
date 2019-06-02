@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- BOOTSTRAP Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font-Awesome Files-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Flexbox-Froggy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col left-side">
+                <h1 class="title">Flexbox-Froggy</h1>
+                <p>Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the bowl
+                        on the right by using the <code style="color: dimgrey"><strong>justify-content</strong></code> property, which aligns items horizontally and accepts the following values:</p>
+                <div>
+                    <ul>
+                        <li><code style="color: dimgrey">flex-start</code> : Items align to the left side of the container.</li>
+                        <li><code style="color: dimgrey">flex-end</code> : Items align to the right side of the container.</li>
+                        <li><code style="color: dimgrey">center</code> : Items align at the center of the container.</li>
+                        <li><code style="color: dimgrey">space-between</code> : Items display with equal spacing between them.</li>
+                        <li><code style="color: dimgrey">space-around</code> : Items display with equal spacing around them.</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For example, justify-content: flex-end; will move the frog to the right.</p>
+                </div>
+                <div>
+                    <label>Justify Content Property: </label>
+                    <input class="inputText" placeholder="flex-box" style="width: 15rem;"/>
+                </div>
+            </div>
+            <div class="col right-side">
+                <div class="icons">
+                    <div>
+                        <i class="fas fa-frog"></i>
+                    </div>
+                    <div>
+                        <i class="far fa-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
