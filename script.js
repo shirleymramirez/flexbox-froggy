@@ -19,10 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
             frogIcon.style.right = "45px";
         } 
         else if(inputValue === 'center') {
-
-        } else if(inputValue === 'space-between') {
+            circleIcon.style.position = "absolute";
+            circleIcon.style.right = "46%";
+            frogIcon.style.position = "absolute";
+            frogIcon.style.left = "45%";
+        } 
+        else if(inputValue === 'space-between') {
             
-        } else if(inputValue === 'space-around'){
+        } 
+        else if(inputValue === 'space-around'){
 
         }
     })
