@@ -19,14 +19,14 @@ body {
 
 .left-side {
     /* display: grid; */
-    height: 35rem;
+    height: auto;
     width: 50fr;
     background-color: rgb(138, 156, 139);
 }
 
 .right-side {
     display: flex;
-    height: 35rem;
+    height: auto;
     width: 50fr;
     background-color: rgb(120, 161, 173);
     font-size: 15px;
@@ -38,7 +38,16 @@ body {
 }
 
 h1 {
-    height: 5rem;
+    height: auto;
+}
+
+.user-input {
+    display: flex;
+    padding: 1rem;
+}
+
+.inputText {
+    margin: 0 0.4rem;
 }
 
 .icons {
@@ -50,7 +59,7 @@ h1 {
 
 .fa-frog {
     padding-top: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .fa-circle {
