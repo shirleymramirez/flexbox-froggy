@@ -18,7 +18,6 @@ body {
 }
 
 .left-side {
-    /* display: grid; */
     height: auto;
     width: 50fr;
     background-color: rgb(138, 156, 139);
@@ -32,13 +31,42 @@ body {
     font-size: 15px;
 }
 
-.title {
-    text-align: left;
-    padding: 2rem;
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -0.5rem;
+    justify-content: space-between;
 }
 
-h1 {
-    height: auto;
+.title {
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 0.1rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color:darkslategrey;
+}
+
+.previous {
+  background-color: gainsboro;
+  color:darkslategrey;
+}
+
+.next {
+  background-color:rgb(195, 231, 231);
+  color:darkslategrey;
+}
+
+.welcome-message {
+    padding-top: 1rem;
 }
 
 .user-input {

@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let frogIcon = document.querySelector('.frogIcon');
 
     submit.addEventListener('click', (e) => {
+        e.preventDefault();
         let inputValue = document.querySelector('.inputText').value;
-        
         debugger;
         if(inputValue === 'flex-start') {
             circleIcon.style.position = "absolute";
@@ -30,6 +30,19 @@ document.addEventListener('DOMContentLoaded', function () {
         else if(inputValue === 'space-around'){
 
         }
+    })
+
+    let next = document.querySelector('.next');
+    
+    next.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.querySelector('.inputText').value = '';
+
+        circleIcon.style.position = "static";
+        circleIcon.style.left = "auto"
+
+        frogIcon.style.position = "static";
+
     })
 
 
